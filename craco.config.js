@@ -1,15 +1,9 @@
-module.exports = function({ env }) {
-  return {
+module.exports = {
+  style: {
     sass: {
       loaderOptions: {
         webpackImporter: false,
       }
     }
-      // babel: {
-      //   "plugins": [
-      //     ["@babel/plugin-proposal-decorators", { "legacy": true }],
-      //     ["@babel/plugin-proposal-class-properties", { "loose": true }]
-      //   ]
-      // }
-  };
+  }
 }
