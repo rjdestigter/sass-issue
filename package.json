@@ -1,0 +1,73 @@
+{
+  "name": "benchpress",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://localhost:5000/",
+  "scripts": {
+    "start": "cross-env REACT_APP_ENV_TARGET=dev craco start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "plugins": [
+      "react-i18n"
+    ],
+    "extends": [
+      "react-app",
+      "plugin:react-i18n/recommended"
+    ],
+    "rules": {},
+    "overrides": []
+  },
+  "dependencies": {
+    "@craco/craco": "5.6.4",
+    "@rmwc/button": "6.0.12",
+    "@rmwc/circular-progress": "6.0.12",
+    "@rmwc/icon": "6.0.12",
+    "@rmwc/linear-progress": "6.0.12",
+    "@rmwc/textfield": "6.0.12",
+    "@rmwc/typography": "6.0.12",
+    "@types/i18next-browser-languagedetector": "3.0.0",
+    "@types/i18next-xhr-backend": "1.4.2",
+    "@types/puppeteer": "2.0.1",
+    "@types/react": "16.9.32",
+    "@types/react-dom": "16.9.6",
+    "@types/styled-components": "5.0.1",
+    "@xstate/react": "0.8.1",
+    "@xstate/test": "0.3.0",
+    "cross-env": "7.0.2",
+    "debug": "4.1.1",
+    "dotenv": "8.2.0",
+    "eslint-plugin-react-i18n": "1.0.3",
+    "fp-ts": "2.5.3",
+    "gh-pages": "2.2.0",
+    "history": "5.0.0-beta.5",
+    "i18next": "19.3.4",
+    "io-ts": "2.1.3",
+    "observable-hooks": "2.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-i18next": "11.3.4",
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "16.13.1",
+    "rxjs": "6.5.5",
+    "sass": "1.26.3",
+    "styled-components": "5.0.1",
+    "ts-node": "8.8.2",
+    "typedoc": "0.17.4",
+    "typedoc-plugin-external-module-name": "3.0.0",
+    "typescript": "3.8.3",
+    "whatwg-fetch": "3.0.0",
+    "xstate": "4.8.0"
+  }
+}
