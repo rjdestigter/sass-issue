@@ -46,7 +46,7 @@
     "@xstate/react": "0.8.1",
     "@xstate/test": "0.3.0",
     "cross-env": "7.0.2",
-    "debug": "4.1.1",
+    "debug": "4.3.1",
     "dotenv": "8.2.0",
     "eslint-plugin-react-i18n": "1.0.3",
     "fp-ts": "2.5.3",
